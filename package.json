@@ -1,0 +1,20 @@
+{
+  "name": "renderhelper",
+  "version": "1.0.0",
+  "description": "this server will hits the oder server apis which is hosted on render",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajdeep sadhu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "ioredis": "^5.4.1",
+    "nodemon": "^3.1.0",
+    "puppeteer": "^22.4.1"
+  }
+}
