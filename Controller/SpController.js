@@ -5,7 +5,7 @@ const errorArray = [];
 
 
  function cleanURL(url) {
-  // Remove the last 15 characters from the URL
+  // Remove the last 15  characters from the URL
  try{
    const modifiedURL = url.slice(0, -25);
    return modifiedURL;
