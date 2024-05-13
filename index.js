@@ -6,7 +6,14 @@ const bodyParser = require('body-parser');
 
 
 
-    const App = express();
+    
+
+
+
+
+
+
+const App = express();
     App.use((req, res, next) => {
         res.header('Access-Control-Allow-Origin', '*');
         res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
