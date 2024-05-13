@@ -4,14 +4,7 @@ const FoodBuddyRouter = require("./Router/FoodBuddyRouter/SpFoodBuddyRouter");
 const ioRedis = require("ioredis")
 const bodyParser = require('body-parser');
 
-const sub = new ioRedis.Redis({
-    host: "redis-29442c85-foodbuddy.l.aivencloud.com",
-    port: 14110,
-    username: "default",
-    password: "AVNS_QPrTTm1udT2I9EFSLCR"
-   })
 
-   sub.subscribe("scrap_init")
 
     const App = express();
     App.use((req, res, next) => {
